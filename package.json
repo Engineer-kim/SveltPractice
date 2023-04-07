@@ -1,0 +1,31 @@
+{
+  "name": "sveltepractice",
+  "version": "1.0.0",
+  "description": "스벨트 개인 공부 및 정리",
+  "main": "index.js",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Engineer-kim/SveltPractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Engineer-kim/SveltPractice/issues"
+  },
+  "homepage": "https://github.com/Engineer-kim/SveltPractice#readme",
+  "devDependencies": {
+    "@snowpack/plugin-babel": "^2.1.7",
+    "@snowpack/plugin-optimize": "^0.2.13",
+    "@snowpack/plugin-sass": "^1.4.0",
+    "@snowpack/plugin-svelte": "^3.7.0",
+    "bootstrap": "^5.2.3",
+    "snowpack": "^3.8.8",
+    "svelte": "^3.58.0",
+    "svelte-preprocess": "^5.0.3"
+  }
+}

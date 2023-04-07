@@ -1,0 +1,20 @@
+{
+  "imports": {
+    "/index.html": {
+      "entry": [
+        "/dist/main.js"
+      ],
+      "css": [
+        "https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css",
+        "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap",
+        "https://fonts.gstatic.com"
+      ],
+      "js": [
+        "/_snowpack/pkg/svelte/internal.js",
+        "/dist/App.svelte.js",
+        "/dist/main.js"
+      ]
+    }
+  },
+  "generated": {}
+}
