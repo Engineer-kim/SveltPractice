@@ -6,11 +6,11 @@
 	let title = ''
 	let isEditMode = false
 
-	function onEditMode() {
+	function onEditMode() {   
 		title = todo.title
 		isEditMode = true
 	}
-	function offEditMode() {
+	function offEditMode() {   
 		isEditMode = false
 	}
 	function updateTodo() {
@@ -19,14 +19,14 @@
 		title = ''
 		offEditMode()
 	}
-	function deleteTodo() {
+	function deleteTodo() {   
 		$todos = $todos.filter(t => t.id !== todo.id)
 		saveStorage()
 	}
 </script>
 
-<div class="todo">
-	{#if isEditMode}
+<div class="todo"> 
+	{#if isEditMode}   //svelte에서의 if 사용법
 		<div class="edit-mode">
 			<input
 				bind:value={title}

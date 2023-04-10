@@ -28,7 +28,7 @@
       }} />
     <button
       class="btn btn-primary"
-      on:click={createTodo}>
+      on:click={createTodo}> <!-- 클릭이벤트 등록하는 법은 같지만 svelte 는 약간 다르게  on:click={} 과 같은 방식 이용 -->
       Create Todo!
     </button>
   </div>
