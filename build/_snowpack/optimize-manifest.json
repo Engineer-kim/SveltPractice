@@ -10,9 +10,18 @@
         "https://fonts.gstatic.com"
       ],
       "js": [
+        "/_snowpack/pkg/common/index-d27c3b8f.js",
+        "/_snowpack/pkg/shortid.js",
         "/_snowpack/pkg/svelte/internal.js",
+        "/_snowpack/pkg/svelte/store.js",
+        "/dist/App.svelte.css.proxy.js",
         "/dist/App.svelte.js",
-        "/dist/main.js"
+        "/dist/components/CreateTodo.svelte.css.proxy.js",
+        "/dist/components/CreateTodo.svelte.js",
+        "/dist/components/Todo.svelte.css.proxy.js",
+        "/dist/components/Todo.svelte.js",
+        "/dist/main.js",
+        "/dist/store/index.js"
       ]
     }
   },

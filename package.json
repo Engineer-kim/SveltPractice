@@ -24,6 +24,7 @@
     "@snowpack/plugin-sass": "^1.4.0",
     "@snowpack/plugin-svelte": "^3.7.0",
     "bootstrap": "^5.2.3",
+    "shortid": "^2.2.16",
     "snowpack": "^3.8.8",
     "svelte": "^3.58.0",
     "svelte-preprocess": "^5.0.3"

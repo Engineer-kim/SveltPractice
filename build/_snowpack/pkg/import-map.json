@@ -1,5 +1,7 @@
 {
   "imports": {
-    "svelte/internal": "./svelte/internal.js"
+    "shortid": "./shortid.js",
+    "svelte/internal": "./svelte/internal.js",
+    "svelte/store": "./svelte/store.js"
   }
 }
